@@ -31,5 +31,11 @@ public class searchFunctionality extends AppTest{
 		System.out.println("Verrifying UI elemets in home page");
 	}
 	
+	@Then("close browser")
+	public void close_browser() {
+	    // Write code here that turns the phrase above into concrete actions
+	    driver.quit();
+	}
+	
 
 }

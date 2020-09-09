@@ -18,8 +18,7 @@ public class AppTest {
 		driver.get("https://www.google.com");
 		driver.manage().window().maximize();
 		System.out.println("URL launched");
-		driver.quit();
-		
+				
 	}
 
 }

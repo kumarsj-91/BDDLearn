@@ -6,9 +6,11 @@ Background:
 	
 Scenario: Search 
 
-	When home page is available 
-	Then search the keyword "cucumber tutorials" 
+	When home page is available
+	Then search the keyword "cucumber tutorials"
+	And close browser
 	
 Scenario: Verify 
 	When home page is available 
 	Then Verify the home page UI Elements
+	
